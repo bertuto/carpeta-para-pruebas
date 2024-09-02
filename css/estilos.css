@@ -1,0 +1,120 @@
+/* ************************************************************************* */
+/*                            ESTILOS GENERALES                              */
+/* ************************************************************************* */
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Usamos flexbox para que el contenido principal crezca y el footer se quede al fondo */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* --------------------- Estilos de la barra de navegación --------------------- */
+.navbar{
+    padding: 0;
+    color: #6c757d;
+}
+.active {
+    background-color: #d4edda; /* Cambia este color al verde que prefieras */
+    color: #6c757d !important; /* Cambia este color al texto que prefieras */
+    font-weight: light;
+}
+
+.nav-link, .navbar-brand{
+    font-size: 1rem;
+    
+}
+
+/* --------------------- Estilos del Footer --------------------- */
+footer{
+    background-color: #f8f9faCC !important;
+}
+
+footer div{
+    padding-top: 0.3em;
+}
+
+
+/* ************************************************************************* */
+/*                           ESTILOS CONTACTO                                */
+/* ************************************************************************* */
+
+main{
+    flex: 1; /* El contenido principal crece para ocupar el espacio restante */
+    margin-top: 1em;
+    max-width: 100%;       /* El div no será más ancho que su contenedor */
+    /* overflow-x: auto;      Permite scroll horizontal si el contenido es más ancho */
+    box-sizing: border-box; /* Incluye padding y borde en el ancho total */  
+}
+
+.titles{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #99b7a0;
+}
+
+.mapa{
+    width: 100%;
+    max-width: 500px; /* Para mantener un tamaño máximo si se desea */
+    height: 400px;
+    border: 0px;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Usamos flexbox para que el contenido principal crezca y el footer se quede al fondo */
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: green; 
+}
+
+/* --------------------- Estilos de la barra de navegación --------------------- */
+.navbar{
+    padding: 0;
+    color: #6c757d;
+}
+.active {
+    background-color: green;/* Cambia este color al verde que prefieras */
+    color: wheat !important; /* Cambia este color al texto que prefieras */
+    font-weight: light;
+}
+
+.nav-link, .navbar-brand{
+   font-size: 1rem;
+   display: inline-block;
+   margin-left: 250px;
+  
+    
+
+    
+}
+
+
+/* --------------------- Estilos del Footer --------------------- */
+
+.footer{
+height:50px;
+line-height:50px;
+background:black;
+color:white;
+text-align:center;
+padding-top: 0.3em;
+bottom:0;
+left:0;
+width:100%;}
+.link{
+    background-color: blue;
+    display: block;
+}
+
+.img-thumbnail{
+    height:30px;
+    width:30px;
+}
